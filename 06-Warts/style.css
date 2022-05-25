@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 90px;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.trybewarts-header-logo {
+  width: 70px;
+  margin-left: 20px;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+}
+
+#email-login {
+  border-radius: 4px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+#input-password {
+  border-radius: 4px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+#login-button {
+  border-radius: 4px;
+  height: 29px;
+  width: 80px;
+  margin-right: 20px;
+}
+
+#trybewarts-header-title {
+  font-size: 3em;
+  color: white;
+}
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+  align-items: center;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+#input-name {
+  height: 26px;
+  width: 250px;
+  margin: 15px 0;
+  border-radius: 4px;
+}
+
+#input-lastname {
+  height: 26px;
+  width: 250px;
+  margin: 15px 0;
+  border-radius: 4px;
+}
+
+#input-email {
+  height: 26px;
+  width: 250px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+#house {
+  height: 30px;
+  width: 214.46px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+#select {
+  display: flex;
+  align-items: center;
+  height: 110px;
+  width: 512px;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.family-radio {
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+  height: 100%;
+  align-items: space-between;
+}
+
+.content-checkbox {
+  flex-direction: column;
+  max-width: 60%;
+  height: 100%;
+  justify-content: flex-end;
+  align-content: space-between;
+}
+
+.family {
+  margin: 5px;
+}
+
+.ratio-avaliation {
+  display: flex;
+  width: 512px;
+  justify-content: space-around;
+  margin-bottom: 5px;
+}
+
+#label-infos {
+  display: flex;
+  height: 26px;
+  width: 512px;
+  align-items: center;
+}
